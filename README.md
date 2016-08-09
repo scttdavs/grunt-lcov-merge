@@ -1,11 +1,13 @@
-# grunt-lcov-merge 
-[![Build Status](https://travis-ci.org/jacob-meacham/grunt-lcov-merge.svg?branch=master)](https://travis-ci.org/jacob-meacham/grunt-lcov-merge)
+# grunt-lcov-merge
+[![Build Status](https://travis-ci.org/jacob-meacham/grunt-lcov-merge.svg?branch=develop)](https://travis-ci.org/jacob-meacham/grunt-lcov-merge)
 [![npm version](https://badge.fury.io/js/grunt-lcov-merge.svg)](http://badge.fury.io/js/grunt-lcov-merge)
-[![Coverage Status](https://coveralls.io/repos/jacob-meacham/grunt-lcov-merge/badge.svg?branch=master)](https://coveralls.io/r/jacob-meacham/grunt-lcov-merge?branch=master)
+[![Coverage Status](https://coveralls.io/repos/jacob-meacham/grunt-lcov-merge/badge.svg?branch=develop)](https://coveralls.io/r/jacob-meacham/grunt-lcov-merge?branch=develop)
 [![Code Climate](https://codeclimate.com/github/jacob-meacham/grunt-lcov-merge/badges/gpa.svg)](https://codeclimate.com/github/jacob-meacham/grunt-lcov-merge)
 [![Dependency Status](https://www.versioneye.com/user/projects/54cbfc3cde7924f81a0001e4/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54cbfc3cde7924f81a0001e4)
 
 > Grunt plugin to merge lcov files from multiple test runs, for use with a tool like [coveralls](coveralls.io).
+
+### This fork is intended to update grunt to 1.x since the original repo seems dead.
 
 ## Getting Started
 This plugin requires Grunt `0.4.0`
@@ -32,7 +34,7 @@ grunt lcovMerge
 Type: `Array`
 Default: `['file']`
 
-What emitters to send the merged data to. Supported emitters are 'file', which sends the merged data to a file, and 'event', which sends it out to the 'coverage' event and can be listened to with 
+What emitters to send the merged data to. Supported emitters are 'file', which sends the merged data to a file, and 'event', which sends it out to the 'coverage' event and can be listened to with
 
 ```js
 grunt.event.on('coverage', function(lcov, done) {});
@@ -53,7 +55,7 @@ If a file emitter is specified, this is the output file to pipe data to.
             jshintrc: true
         }
     },
-    
+
     mocha_istanbul: {
       coverage: {
           src: 'test/**/*.spec.js',
