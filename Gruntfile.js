@@ -17,7 +17,7 @@ module.exports = function(grunt) {
             jshintrc: true
         }
     },
-    
+
     mocha_istanbul: {
       coverage: {
           src: 'test/**/*.spec.js',
@@ -35,19 +35,6 @@ module.exports = function(grunt) {
       },
       files: ['build/coverage/*.info', 'build/coverage/**/*.info']
     }
-  });
-
-  grunt.event.on('coverage', function(lcov, done) {
-    // Coveralls uses argv to set the basePath
-    var oldArgv = process.argv[2];
-    process.argv[2] = '';
-    require('coveralls').handleInput(lcov, function(err) {
-      process.argv[2] = oldArgv;
-      if (err) {
-        return done(err);
-      }
-      done();
-    });
   });
 
   grunt.loadTasks('tasks');
