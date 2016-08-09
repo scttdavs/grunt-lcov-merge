@@ -1,19 +1,23 @@
 {
-  "name": "grunt-lcov-merge",
+  "name": "grunt-lcov-merge2",
   "description": "Grunt plugin to merge lcov files from multiple test runs.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "keywords": [
     "gruntplugin",
     "lcov",
     "coverage"
   ],
-  "homepage": "https://github.com/jacob-meacham/grunt-lcov-merge",
+  "homepage": "https://github.com/scttdavs/grunt-lcov-merge",
   "author": {
     "name": "jemonjam",
     "url": "http://jemonjam.com"
   },
+  "contributors": [{
+    "name" : "scttdavs",
+    "url" : "http://sco.ttdavis.com/"
+  }],
   "bugs": {
-    "url": "https://github.com/jacob-meacham/grunt-lcov-merge/issues"
+    "url": "https://github.com/scttdavs/grunt-lcov-merge/issues"
   },
   "repository": {
     "type": "git",
@@ -22,7 +26,7 @@
   "licenses": [
     {
       "name": "MIT",
-      "url": "https://github.com/jacob-meacham/grunt-lcov-merge/blob/master/LICENSE"
+      "url": "https://github.com/scttdavs/grunt-lcov-merge/blob/master/LICENSE"
     }
   ],
   "files": [

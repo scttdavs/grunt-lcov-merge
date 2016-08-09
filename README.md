@@ -1,8 +1,5 @@
 # grunt-lcov-merge
-[![Build Status](https://travis-ci.org/jacob-meacham/grunt-lcov-merge.svg?branch=develop)](https://travis-ci.org/jacob-meacham/grunt-lcov-merge)
-[![npm version](https://badge.fury.io/js/grunt-lcov-merge.svg)](http://badge.fury.io/js/grunt-lcov-merge)
-[![Code Climate](https://codeclimate.com/github/jacob-meacham/grunt-lcov-merge/badges/gpa.svg)](https://codeclimate.com/github/jacob-meacham/grunt-lcov-merge)
-[![Dependency Status](https://www.versioneye.com/user/projects/54cbfc3cde7924f81a0001e4/badge.svg?style=flat)](https://www.versioneye.com/user/projects/54cbfc3cde7924f81a0001e4)
+[![Build Status](https://travis-ci.org/scttdavs/grunt-lcov-merge.svg?branch=master)](https://travis-ci.org/scttdavs/grunt-lcov-merge)
 
 > Grunt plugin to merge lcov files from multiple test runs, for use with a tool like [coveralls](coveralls.io).
 
